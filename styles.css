@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+body{
+margin:0;
+padding:0;
+height: 100vh;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+a{
+text-decoration: none;
+white-space: nowrap;
+}
+
+
+.header-background-image{ 
+min-height: 100%;
+/* min-width: 100%; */
+max-width: 1920px;
+width: 100%;
+height: auto;
+}
+
+
+
+
+/* =========================================
+      ------HEADER SECTION---------
+=========================================== */
+.header-background-image{
+position:relative;
+top: 0;
+left: 0;
+}
+
+.header-section{
+position: absolute;
+top: 0;
+left:0;
+}
+
+.header-text-one-two-with-image{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.header-text-one-two-with-image img{
+padding-top: 50px;
+width: 95%;
+}
+
+.header-text-one{
+margin-top:170px;
+color: rgba(39, 45, 78, 1);
+font-size: 52px;
+font-weight: 700;
+text-align: left;
+max-width: 600px;
+margin-left: 120px;
+}
+
+.header-text-two{
+font-weight: 500;
+color:rgba(148, 162, 179, 1);
+max-width:373px;
+font-size: 18px;
+margin-left: 120px;
+padding-bottom: 20px;
+}
+
+.header-text-button{
+display: inline-block;
+margin-left: 120px;
+}
+
+
+.header-text-three{
+color:rgba(39, 45, 78, 1);
+text-align: center;
+font-weight: 600;
+font-size: 38px;
+margin-bottom: 1rem;
+}
+
+.header-text-four{
+font-size: 18px;
+color: rgba(148, 162, 179, 1);
+margin: 0 auto;
+text-align: center;
+max-width: 589px;
+padding-bottom: 45px;
+}
+    
+
+/* =========================================
+      ------NAV SECTION---------
+=========================================== */
+
+nav ul{
+list-style-type: none;
+}
+
+nav {
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+}
+
+nav ul:nth-child(2), nav ul:nth-child(3){
+display: flex;
+align-items:center;
+font-weight: 600;
+
+}
+
+nav ul:nth-child(2){
+gap: 30px;
+font-size: 18px;
+line-height: 22px;
+
+}
+
+nav ul:nth-child(2) a{
+color:rgba(39, 45, 78, 1);
+}
+
+nav ul:nth-child(3){
+gap:40px;
+font-size: 16px;
+line-height: 20px;
+}
+
+nav img:first-child {
+margin-left: 2.5rem;
+}
+
+
+.button-hire{
+border: 2px solid rgba(55, 137, 255, 1);
+padding: 13px 16px 14px 14px;
+color: #3789ff;
+}
+
+.button-apply{
+background-color:rgba(55, 137, 255, 1);
+border-radius: 5px;
+padding: 13px 17px 14px 17px;
+color: #fff;
+}
+
+/* =========================================
+      ------JOB SECTION---------
+=========================================== */
+
+
+.job{
+/* background-color: black; */
+margin-top: 150px ;
+display: flex;
+}
+
+figure img{
+width: 100%;
+height: auto;
+}
+
+figcaption{
+margin-top: -20px;
+}
+ 
+figcaption > :nth-child(1){
+font-size: 36px;
+font-weight: 600;
+line-height: 70px;
+text-align: left;
+color: rgba(39, 45, 78, 1);
+}
+
+
+figcaption > :nth-child(2){
+/* max-width: 430px; */
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+color: rgba(148, 162, 179, 1);
+margin-bottom: 18px;
+}
+
+figcaption > :nth-child(3) a {
+font-size: 18px;
+font-weight: 700;
+color: rgba(41, 158, 243, 1);
+}
+
+.freelance{
+margin-top: 150px;
+}
+
+.freelance figcaption{
+margin-top: 50px;
+}
+
+
+/* =========================================
+------BLUE BACKGROUND SECTION---------
+=========================================== */
+.blue-background-section {
+margin-top: -159px;
+width: 100%;
+background-size: 100%;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-image: url(./img/Group\ 49\ \(1\).png);
+height: 1193px;
+}
+
+.top-left-image-words{
+margin-left:600px;
+padding-top: 300px;
+}
+
+
+.bottom-right-image-words{
+margin-left: 370px;
+padding-top: 150px;
+}
+
+
+.top-left-image-words  :nth-child(1),
+.bottom-right-image-words :nth-child(1){
+font-size: 28px;
+font-weight: 700;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+max-width: 230px;
+margin-bottom: 10px;
+}
+
+.top-left-image-words :nth-child(2),
+.bottom-right-image-words :nth-child(2){
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 40px;
+}
+
+.blue-section-button{
+border-radius: 5px;
+background: rgba(255, 186, 73, 1);
+color: rgba(255, 255, 255, 1);
+padding: 22px 74px 20px 75px;
+font-size: 18px;
+font-weight: 600;
+}
+
+.bottom-right-image-words :nth-child(1){
+max-width: 453px;
+}
+
+/* =========================================
+------TESTIMONIAL SECTION---------
+=========================================== */
+.testimonial-section{
+width: 100%;
+background-size: 100%;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-image: url(./img/images-in-circle.png);
+height: 901px;
+margin-top: -201px;
+}
+
+
+.testimonial-section div:first-child{
+font-size: 35px;
+font-weight: 600;
+color: rgba(39, 45, 78, 1);
+text-align: center;
+padding-top: 180px;
+margin-bottom: 150px;
+}
+
+.testimonial-section div:nth-child(2){
+font-size: 18px;
+font-weight: 500;
+color: rgba(148, 162, 179, 1);
+text-align: center;
+}
+
+/* =========================================
+--------PEOPLE SECTION---------------------
+=========================================== */
+.people-section-wordings div:first-child{
+font-size: 35px;
+font-weight: 500;
+text-align: center;
+color: rgba(39, 45, 78, 1);
+margin-bottom: 31px;
+}
+
+.people-section-wordings div:nth-child(2){
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+color:rgba(148, 162, 179, 1);
+}
+
+.people-section-wordings div:nth-child(3){
+text-align: center;
+margin-top: 31px;
+}
+
+
+.peoples-image{
+padding-left: 42px;
+padding-right: 70px;
+
+
+}
+.peoples-image img{
+max-width: 1920px;
+min-height: 100%;
+width: 100%;
+height: auto;
+}
+      
+/* =========================================
+------FOOTER SECTION----------------------
+=========================================== */
+footer{
+position: sticky;
+top: 100vh;
+}
+
+.column-copyright{
+background-color:rgba(55, 137, 255, 1) ;
+height: 417px;
+margin-top: -123px;
+}
+
+
+footer a{
+display: block;
+font-size: 18px;
+font-weight: 500;
+text-align: left;
+color: #fff;
+}
+
+.columns > div > p{
+font-size: 22px;
+font-weight: 700;
+color: #fff;
+text-align: left;
+}
+
+.columns{
+padding-top:80px;
+display: flex;
+gap: 100px;
+}
+
+.bottom{
+margin-top: 105px;
+color: #fff;
+text-align: center;
+}
+
+.links{
+margin-top: -10px;
+}
+
+.columns figure{
+margin-left: 150px;
+} 
